@@ -1,5 +1,12 @@
 ﻿namespace Egzamin4Konsolowka
 {
+    //**************************
+    //klasa: Uczen
+    //opis: Klasa reprezentuje Ucznia   
+    //pola: imie - imie ucznia
+    //      oceny - oceny ucznia
+    //autor: Paweł
+    //**************************
     class Uczen
     {
         private string imie = "";
@@ -47,6 +54,14 @@
 
     internal class Program
     {
+        //**************************
+        //nazwa funkcji: NWD
+        //opis funkcji: bierze największy wspólny dzielnik z dwóch wartości
+        //parametry: suma1 - pierwsza liczba
+        //           suma2 - druga liczba
+        //zwracany typ i opis: int - największy wspólny dzielni dwóch liczb
+        //autor: Paweł
+        //**************************
         static int NWD(int suma1, int suma2)
         {
             while(suma1 != suma2)
@@ -59,6 +74,13 @@
             return suma1;
         }
 
+        //**************************
+        //nazwa funkcji: mainLoop
+        //opis funkcji: główna funkcja odpowiadająca za logikę programu, którą możną ponownie wywołać, kiedy użytkownik chce porównać dwóch nowych uczniów
+        //parametry: brak
+        //zwracany typ i opis: brak
+        //autor: Paweł
+        //**************************
         static void mainLoop()
         {
             Uczen u1 = new Uczen();
