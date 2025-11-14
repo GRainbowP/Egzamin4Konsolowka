@@ -158,7 +158,7 @@
                 mainLoop();
             }
             else if (wybor == 2)
-                Console.WriteLine("Dowidzenia");
+                Console.WriteLine("Do widzenia");
         }
     }
 }
