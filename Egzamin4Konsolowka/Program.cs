@@ -158,7 +158,10 @@
                 mainLoop();
             }
             else if (wybor == 2)
+            {
                 Console.WriteLine("Do widzenia");
+                Console.WriteLine("Dziękuje za korzystanie z programu");
+            }
         }
     }
 }
